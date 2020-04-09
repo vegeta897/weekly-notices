@@ -6,7 +6,7 @@ Requires node `8.11.1` or newer
 ## Install
 
 ```bash
-git clone https://github.com/vegeta897/raid-notices.git
+git clone https://github.com/vegeta897/weekly-notices.git
 cd discord-syntax-test
 npm install
 ```
