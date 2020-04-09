@@ -1,5 +1,7 @@
 # 🛠️ Configuration
 
+The default contents of these files should illustrate their usage, but you should read this to make sure you understand everything. The bot will try to give you helpful errors if you have an invalid config. If you're new to JSON, you may want to [validate your file](https://jsonlint.com/) first.
+
 ## Schedule
 
 The `schedule.json` file contains your scheduling data, which consists of two parts:
@@ -21,7 +23,12 @@ Every event object must look like the following:
   "minute": 0
 }
 ```
-The `name` will be shown in the notification. The `hour` must be in 24-hour format, so 10PM at night would be `"hour": 22`
+
+The `weekday` must be a day of the week, in lower-case.
+
+The `hour` must be in 24-hour format, so 10PM at night would be `"hour": 22`
+
+The `name` will be shown in the notification.
 
 Don't forget to separate your event objects with a comma. [Validate your JSON!](https://jsonlint.com/)
 
