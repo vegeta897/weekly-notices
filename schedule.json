@@ -1,0 +1,41 @@
+{
+  "timezone": "America/New_York",
+  "notifications": [
+    {
+      "minutesBefore": 30,
+      "secondsBefore": 0
+    },
+    {
+      "minutesBefore": 15,
+      "secondsBefore": 0
+    },
+    {
+      "minutesBefore": 10,
+      "secondsBefore": 0
+    },
+    {
+      "minutesBefore": 5,
+      "secondsBefore": 0,
+      "roleMention": "everyone",
+      "customMessage": "This is the final notice!"
+    },
+    {
+      "minutesBefore": 0,
+      "secondsBefore": 0
+    }
+  ],
+  "events": [
+    {
+      "name": "Tuesday night boss",
+      "weekday": "tuesday",
+      "hour": 20,
+      "minute": 0
+    },
+    {
+      "name": "Early Thursday boss",
+      "weekday": "thursday",
+      "hour": 6,
+      "minute": 1
+    }
+  ]
+}
