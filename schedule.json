@@ -1,5 +1,19 @@
 {
   "timezone": "America/New_York",
+  "events": [
+    {
+      "name": "Tuesday night boss",
+      "weekday": "tuesday",
+      "hour": 20,
+      "minute": 0
+    },
+    {
+      "name": "Early Thursday boss",
+      "weekday": "thursday",
+      "hour": 6,
+      "minute": 1
+    }
+  ],
   "notifications": [
     {
       "minutesBefore": 30,
@@ -22,20 +36,6 @@
     {
       "minutesBefore": 0,
       "secondsBefore": 0
-    }
-  ],
-  "events": [
-    {
-      "name": "Tuesday night boss",
-      "weekday": "tuesday",
-      "hour": 20,
-      "minute": 0
-    },
-    {
-      "name": "Early Thursday boss",
-      "weekday": "thursday",
-      "hour": 6,
-      "minute": 1
     }
   ]
 }
