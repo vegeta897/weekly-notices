@@ -13,7 +13,7 @@ npm install
 
 ## Configure
 
-Set `TOKEN` env variable, or create a `.env` file with `TOKEN="your_token"`
+Set `TOKEN` env variable, or create a `.env` file with `TOKEN=your_token`
 
 Add your events and notifications to `schedule.json`
 
