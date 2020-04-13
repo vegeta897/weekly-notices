@@ -47,6 +47,8 @@ Notification objects consist entirely of optional properties:
 
 This notification will trigger 30 minutes before every event, because it has `minutesBefore` set to `30`. You can also use `secondsBefore`, which will add with the minutes. These properties will default to `0` if not set (which causes a notification precisely when the event starts)
 
+You can use negative values to send notifications after the event!
+
 You can make the notification mention a @role with `roleMention`. You can use `"everyone"`, `"here"`, or the name of any mentionable role. Do not include `@` in the role name.
 
 Lastly, you can attach a custom message to the notification. This will display in addition to the event name and how many minutes/seconds away it is.
