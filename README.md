@@ -7,7 +7,7 @@ Requires node `8.11.1` or newer
 
 ```bash
 git clone https://github.com/vegeta897/weekly-notices.git
-cd discord-syntax-test
+cd weekly-notices
 npm install
 ```
 
